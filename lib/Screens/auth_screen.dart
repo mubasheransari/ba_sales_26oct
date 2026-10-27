@@ -218,22 +218,29 @@ Future<void> _loadLocations() async {
                     children: [
                       Row(
                         children: [
-                          Container(
-                            width: 46,
-                            height: 46,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(14),
-                            ),
-                            child: const Icon(Icons.storefront_rounded,
-                                color: AppColors.red),
-                          ),
-                          const SizedBox(width: 12),
-                          const Text('BA Sales',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.w800)),
+                          // Container(
+                          //   width: 46,
+                          //   height: 46,
+                          //   decoration: BoxDecoration(
+                          //     color: Colors.white,
+                          //     borderRadius: BorderRadius.circular(14),
+                          //   ),
+                          //   child: const Icon(Icons.storefront_rounded,
+                          //       color: AppColors.red),
+                          // ),
+                          // const SizedBox(width: 12),
+                           Image.asset(
+          'assets/ba_logo.png',
+          width: 80,
+          height: 80,
+          fit: BoxFit.contain,
+          color: Colors.white,
+        ),
+                          // const Text('BA Sales',
+                          //     style: TextStyle(
+                          //         color: Colors.white,
+                          //         fontSize: 22,
+                          //         fontWeight: FontWeight.w800)),
                           const SizedBox(width: 8),
                           // This phone's Device ID, top right
                           const Expanded(
