@@ -9,8 +9,7 @@ import 'package:ords_ba/Repository/repository.dart';
 import 'package:ords_ba/Theme/app_theme.dart';
 import 'package:ords_ba/Widgets/common.dart';
 
-/// Login + Signup in one screen. Locations for signup come from the
-/// `locations/list` API and are shown in a dropdown.
+
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
 
